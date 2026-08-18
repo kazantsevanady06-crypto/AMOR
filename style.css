@@ -1189,15 +1189,35 @@ h2 {
 
     }
 
+    @media (max-width: 600px) {
+
     .hero-card {
+        left: 12px;
+        bottom: 12px;
 
-        bottom: 15px;
+        padding: 10px 14px;
 
-        left: 10px;
+        border-radius: 12px;
 
-        padding: 17px 20px;
+        max-width: 145px;
 
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.18);
     }
+
+    .hero-card strong {
+        font-size: 14px;
+        line-height: 1.1;
+    }
+
+    .hero-card span {
+        margin-top: 3px;
+
+        font-size: 8px;
+        line-height: 1.2;
+    }
+
+}
 
     .price-item {
 
